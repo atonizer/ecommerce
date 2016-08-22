@@ -1,0 +1,5 @@
+Options Indexes
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+
+#start 2-40;
