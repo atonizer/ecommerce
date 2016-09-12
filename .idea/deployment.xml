@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="site.loc">
+  <component name="PublishConfigData" serverName="testServer">
     <serverData>
-      <paths name="site.loc">
+      <paths name="ecommerce">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="testServer">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="ecommerce" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="testsite">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -5,4 +5,4 @@ $core->run();
 
 //echo Url::getParam();
 
-// Start SECTION 2 : Url parameters.mp4
+// Start SECTION 2 : Class and method
