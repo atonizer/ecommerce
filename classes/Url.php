@@ -19,4 +19,17 @@ class Url{
         $error = self::$_folder.DS."error.php";
         return is_file($page) ? $page : $error;
     }
+
+    public static function getAll() {
+        if (!empty($_GET)){
+            foreach ($_GET as $key => $value){
+                if (!empty($value)){
+                    self::$_params[$key] = $value;
+                }
+            }
+        }
+    }
+
+
+
 }
