@@ -5,4 +5,4 @@ $core->run();
 
 //echo Url::getParam();
 
-// Start SECTION 3 : New class definition
+// Start SECTION 3 : Escape method
